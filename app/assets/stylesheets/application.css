@@ -23,6 +23,10 @@ body {
   background-size: cover;
 }
 
+h1 {
+  padding-left: 40px;
+}
+
 #logo-main {
   display: block;
   margin: 50px auto;
@@ -44,4 +48,18 @@ body {
 > a {
   padding-left: 30px;
   padding-right: 30px;
+}
+
+table {
+  border-collapse: collapse;
+    width: 60%;
+    margin: 40px;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
