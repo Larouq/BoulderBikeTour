@@ -10,13 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_27_203538) do
+ActiveRecord::Schema.define(version: 2018_11_27_225857) do
 
   create_table "riders", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
     t.string "city"
     t.string "state"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "slogans", force: :cascade do |t|
+    t.string "first_name", limit: 15
+    t.string "last_name", limit: 15
+    t.string "email"
+    t.string "slogan", limit: 500
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

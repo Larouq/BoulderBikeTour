@@ -14,7 +14,7 @@
 </head>
 
 <header role="banner">
-  <img id="logo-main" src="logo.png" width="200" alt="Logo">
+  <div id="logo-main"><%= image_tag("logo1.png", :alt => "logo") %></div>
   <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -32,14 +32,16 @@
           <li><a href="#">Photos</a></li>
           <li><a href="#">Locations</a></li>
           <li><a href="/riders">Riders</a></li>
-          <li><a href="#">Slogan contast</a></li>
+          <li><a href="/slogans">Slogan contast</a></li>
         </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+      </div>
+    </div>
   </nav>
-</header><!-- header role="banner" -->
+</header>
 
 <body>
-  <%= yield %>
+  <div>
+    <%= yield %>
+  </div>
 </body>
 </html>
