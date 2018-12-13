@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: MyString
+  owner: MyString
+  secret: MyString
+  server: MyString
+  farm: MyString
+  title: MyString
+  ispublic: MyString
+  isfriend: MyString
+  isfamily: MyString
+
+two:
+  id: MyString
+  owner: MyString
+  secret: MyString
+  server: MyString
+  farm: MyString
+  title: MyString
+  ispublic: MyString
+  isfriend: MyString
+  isfamily: MyString

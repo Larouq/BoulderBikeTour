@@ -14,7 +14,10 @@
 </head>
 
 <header role="banner">
-  <div id="logo-main"><%= image_tag("logo1.png", :alt => "logo") %></div>
+  <div class="logo container">
+    <a href="/site/home" class="col-lg-8"><%= image_tag("logo1.png", :alt => "logo", :class => "logo-main") %></a>
+    <h1 class="col-lg-4">April 1, 2020</h1>
+  </div>
   <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -27,9 +30,9 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar-primary-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/site/home">Home</a></li>
+          <li><a href="/site/home">Home</a></li>
           <li><a href="/site/about">About</a></li>
-          <li><a href="#">Photos</a></li>
+          <li><a href="/photos">Photos</a></li>
           <li><a href="#">Locations</a></li>
           <li><a href="/riders">Riders</a></li>
           <li><a href="/slogans">Slogan contast</a></li>
@@ -40,8 +43,16 @@
 </header>
 
 <body>
-  <div>
+  <div class="container jumbotron">
     <%= yield %>
   </div>
 </body>
+<footer class="page-footer font-small mdb-color pt-4">
+  <div class="container text-center text-md-left">
+    <hr class="w-100 clearfix d-md-none">
+    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+    <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+    <p><i class="fa fa-envelope mr-3"></i> info@gmail.com | + 01 234 567 88</p>
+  </div>
+</footer>
 </html>

@@ -10,7 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_27_225857) do
+ActiveRecord::Schema.define(version: 2018_12_04_224441) do
+
+  create_table "photos", force: :cascade do |t|
+    t.string "owner"
+    t.string "secret"
+    t.string "server"
+    t.string "farm"
+    t.string "title"
+    t.string "ispublic"
+    t.string "isfriend"
+    t.string "isfamily"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "riders", force: :cascade do |t|
     t.string "first_name"

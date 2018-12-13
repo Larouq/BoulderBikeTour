@@ -21,15 +21,17 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
-h1 {
-  padding-left: 40px;
-}
-
-#logo-main {
+.logo-main {
   display: block;
-  margin: 50px auto;
+  margin: 20px auto;
+  align: center;
+  height: 150px;
+}
+
+.logo {
   align: center;
 }
 
