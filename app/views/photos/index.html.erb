@@ -1,8 +1,25 @@
 <h1>Flickr photos</h1>
+<h2>#bikerace #BoulderBikeTour</h2>
+<div class="photos"> </div>
 
-<% @photos.each do |p| %>
-<tr>
-  <td><%= photos.id %></td>
-  <td><%= photos.server %></td>
-</tr>
-<% end %>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+
+<script>
+  var xhr = $.get("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=bb64fc19b0abd40a5b9448102336c410&tags=bikerace%2C+BoulderBikeTour&per_page=40&page=5&format=json&nojsoncallback=1&api_sig=afe61810acbfa49228ea1828690ea92e")
+
+  xhr.done(function(data) { console.log("success got data", data.photos.photo);
+
+  var photos = data.photos.photo
+
+  for (let item of photos) {
+    var farm = item.farm
+    var server = item.server
+    var id = item.id
+    var secret = item.secret
+    var title = item.title
+    var url = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}.jpg`
+
+    $(".photos").append(`<img src=${url} alt=${title}>`)
+  }
+});
+</script>
