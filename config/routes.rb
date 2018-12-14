@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   resources :riders
   resources :slogans
   resources :photos
+  resources :location
 end
