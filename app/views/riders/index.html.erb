@@ -5,19 +5,21 @@
 <tbody>
   <table>
     <tr>
-      <th></th>
       <th>First name</th>
       <th>Last name</th>
       <th>City of origin</th>
       <th>State of origin</th>
+      <th>lat</th>
+      <th>lng</th>
     </tr>
     <% @riders.each do |rider| %>
     <tr>
-      <td><%= rider.id %></td>
       <td><%= rider.first_name %></td>
       <td><%= rider.last_name %></td>
       <td><%= rider.city %></td>
       <td><%= rider.state %></td>
+      <td><%= rider.lat %></td>
+      <td><%= rider.lng %></td>
     </tr>
     <% end %>
   </table>
