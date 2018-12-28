@@ -1,34 +1,30 @@
 <%= form_with(model: slogan, local: true) do |form| %>
-<% if slogan.errors.any? %>
-<div id="error_explanation">
-  <h2><%= pluralize(slogan.errors.count, "error") %> prohibited this slogan from being saved:</h2>
 
-  <ul>
-    <% slogan.errors.full_messages.each do |message| %>
-    <li><%= message %></li>
-    <% end %>
-  </ul>
-</div>
-<% end %>
 
 <div class="actions">
   <div class="col-lg-2">
   <%= form.label :first_name %><br>
-  <%= form.text_field :first_name, :required => true %>
+  <%= form.text_field :first_name, placeholder: "John", :required => true %>
 </div>
 <div class="col-lg-2">
   <%= form.label :last_name %><br>
-  <%= form.text_field :last_name, :required => true %>
+  <%= form.text_field :last_name, placeholder: "Smith", :required => true %>
 </div>
 <div class="col-lg-2">
   <%= form.label :email %><br>
-  <%= form.text_field :email, :required => true %>
+  <%= form.text_field :email, placeholder: "john.smith@example.com", :required => true %>
 </div>
 <div class="col-lg-6">
   <%= form.label :slogan %><br>
-  <%= form.text_area :slogan, :rows => 6, :cols => 50, :required => true %>
+  <%= form.text_area :slogan, placeholder: "Write your slogan idea here..", :rows => 6, :cols => 50, :required => true %>
 </div>
 </div>
+
+<% if slogan.errors.any? %>
+<div id="error_explanation">
+  <p>please check our email</p>
+</div>
+<% end %>
 
 <div class="actions">
   <%= form.submit %>

@@ -28,7 +28,7 @@ class SlogansController < ApplicationController
 
     respond_to do |format|
       if @slogan.save
-        format.html { redirect_to @slogan, notice: 'Thank you for sumitting your Slogan idea.' }
+        format.html { redirect_to @slogan, notice: 'Thank you for submitting your Slogan idea.' }
         format.json { render :show, status: :created, location: @slogan }
       else
         format.html { render :new }

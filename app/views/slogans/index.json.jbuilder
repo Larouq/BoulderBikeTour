@@ -1,1 +1,1 @@
-json.array! @slogans, partial: 'slogans/slogan', as: :slogan
+# json.array! @slogans, partial: 'slogans/slogan', as: :slogan
