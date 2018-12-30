@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  first_name: MyString
-  last_name: MyString
-  email: MyString
-  slogan: MyString
+  first_name: Martin
+  last_name: Moll
+  email: martin@example.com
+  slogan: Rider slogan comes here
 
 two:
-  first_name: MyString
-  last_name: MyString
-  email: MyString
-  slogan: MyString
+  first_name: Anna
+  last_name: Felder
+  email: anna@example.com
+  slogan: Rider your bike

@@ -5,21 +5,37 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
 
 <script>
-  var xhr = $.get("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=d20c8b5e2a9b2790c4225bca2e5793f8&tags=bikerace%2C+BoulderBikeTour&per_page=40&page=2&format=json&nojsoncallback=1&api_sig=e8ab497f256e5d360616ab32efa8b2f5")
+  var api_key = "ac3cf133f7f530a931a5910384ce3c25"
+  var page = 1
 
-  xhr.done(function(data) { console.log("success got data", data.photos.photo);
+  if ($(document).height() < 300) {
+     alert('hi')
+  }
 
-  var photos = data.photos.photo
+  $(window).scroll(function() {
+    if($(window).scrollTop() + $(window).height() > $(document).height()-50) {
 
-  for (let item of photos) {
-    var farm = item.farm
-    var server = item.server
-    var id = item.id
-    var secret = item.secret
-    var title = item.title
-    var url = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}.jpg`
+      var xhr = $.get("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=" + api_key + "&tags=bikerace%2C+BoulderBikeTour&per_page=40&page=" + page + "&format=json&nojsoncallback=1")
 
-    $(".photos").append(`<img src=${url} alt=${title}>`)
+      xhr.done(function(data) { console.log("success got data", data.photos.photo);
+
+      var photos = data.photos.photo
+
+      for (let item of photos) {
+        var farm = item.farm
+        var server = item.server
+        var id = item.id
+        var secret = item.secret
+        var title = item.title
+        var url = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}.jpg`
+
+        $(".photos").append(`<img src=${url} alt=${title}>`)
+      }
+    });
+
+    page = page + 1
+
   }
 });
+
 </script>

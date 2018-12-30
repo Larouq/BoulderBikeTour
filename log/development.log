@@ -18689,4 +18689,2680 @@ Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0
 Processing by SiteController#home as HTML
   Rendering site/home.html.erb within layouts/application
   Rendered site/home.html.erb within layouts/application (1.0ms)
-Completed 200 OK in 59ms (Views: 56
+Completed 200 OK in 59ms (Views: 56Started GET "/slogans" for 192.168.56.1 at 2018-12-28 09:02:17 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.7ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 420ms (Views: 403.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 09:02:20 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 09:02:42 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-28 09:02:43 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-28 09:02:44 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 31ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-28 09:02:45 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.7ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 49ms (Views: 42.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 09:02:46 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.4ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 09:23:45 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 81ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 09:23:46 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 09:23:49 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 82ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 12:11:12 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 87ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-28 12:11:14 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-28 12:12:08 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 38ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-28 12:12:13 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 12:12:46 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 12:12:48 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 19:11:44 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:11:46 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.8ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 60ms (Views: 56.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 19:11:48 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (63.2ms)
+  Rendered slogans/new.html.erb within layouts/application (65.2ms)
+Completed 200 OK in 103ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 19:12:09 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cgnxmmDotsTqIwy8ast6A52v4VIr+0fwnc9lEyhUdKqT4Y+Hp6GvCFSI2Yf5/uB4eo27zBaZbt4rnkf+mrdQlA==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"test@test.it", "slogan"=>"diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[36mSlogan Create (2.9ms)[0m  [1m[32mINSERT INTO "slogans" ("first_name", "last_name", "email", "slogan", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "test"], ["last_name", "test"], ["email", "test@test.it"], ["slogan", "diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin"], ["created_at", "2018-12-28 19:12:09.952915"], ["updated_at", "2018-12-28 19:12:09.952915"]]
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (9.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+Redirected to http://192.168.56.101:3000/slogans/8
+Completed 302 Found in 31ms (ActiveRecord: 12.4ms)
+
+
+Started GET "/slogans/8" for 192.168.56.1 at 2018-12-28 19:12:09 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mSlogan Load (0.3ms)[0m  [1m[34mSELECT  "slogans".* FROM "slogans" WHERE "slogans"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/slogans_controller.rb:67
+  Rendering slogans/show.html.erb within layouts/application
+  Rendered slogans/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 55ms (Views: 45.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:12:13 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.4ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 47ms (Views: 44.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 19:12:19 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (15.8ms)
+  Rendered slogans/new.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 84ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 19:16:47 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (5.0ms)
+  Rendered slogans/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 59ms (Views: 43.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-28 19:16:50 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.4ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 69ms (Views: 55.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:16:50 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.4ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 62ms (Views: 57.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 19:16:54 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (4.1ms)
+  Rendered slogans/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 19:17:22 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EdjHtrFqTbAVVUGCCQ8DB+OSrbfg/BCgCz+fRWhKo7bwMLmrdiNUfKv+lLmaOpl8BLD3Kd2eOY69br2o2qmHiA==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"test", "slogan"=>"diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (4.1ms)
+  Rendered slogans/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 67ms (Views: 56.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 19:17:31 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KWaQFaS95xYOIuNdzJ8sArc3DNIC5kH7tRNwbATRtgSiy9D8ZEUu9UWtjAvDftZlwUDu72etsCwHj3XDQc9b1w==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"test", "slogan"=>"diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (10.8ms)
+  Rendered slogans/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 68ms (Views: 59.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 19:17:48 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vx4Gv/xYIuDPiAw6PMJfx4ZPh6YFhbtO2fSvzMKRTCA0s0ZWPKDrA4QHY2wzI6Wg8Dhlm2DOSplraKpjh4+h8w==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"test", "slogan"=>"diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (2.7ms)
+  Rendered slogans/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 86ms (Views: 73.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:18:17 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.3ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 50ms (Views: 47.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 19:18:19 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (10.3ms)
+  Rendered slogans/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 57ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 19:18:31 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (12.8ms)
+  Rendered slogans/new.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 110ms (Views: 106.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 19:25:26 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (4.2ms)
+  Rendered slogans/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 74ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 19:25:40 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C9+ecwWxK2JIyZjMztS9Fkc/Mg9KC4srlwwJ5rP0W7uAct6axUnigQNG95rBNUdxMUjQMi9AevwlkAxJ9uq2aA==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"test", "slogan"=>"diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (4.5ms)
+  Rendered slogans/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 74ms (Views: 49.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:26:16 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.3ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 64ms (Views: 60.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 19:26:20 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (17.0ms)
+  Rendered slogans/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 94ms (Views: 91.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 19:26:29 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nuV4OstA7+xApqGZYafAXD43mmu13ZnXsyprQCd2RJl/DQYnDAn2IP4NdKLyklon2RXA9Yi/sPkFe0mtlZVgpw==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"test", "slogan"=>"diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin\r\n\r\n"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (19.8ms)
+  Rendered slogans/new.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 102ms (Views: 85.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:27:36 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.3ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 86ms (Views: 83.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 19:27:38 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (5.5ms)
+  Rendered slogans/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 19:27:44 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JRQHS2GFlGNfYjO47WN+DtwZPwn0RBu4XA8ZvIDLkHLE/HlWpsyNr+HJ5oN+VuR1Oztll8kmMpbqXjtRMii0TA==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"test", "slogan"=>"diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (6.3ms)
+  Rendered slogans/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 60ms (Views: 43.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:27:53 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (1.9ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 106ms (Views: 98.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 19:27:57 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (7.2ms)
+  Rendered slogans/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 68ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 19:28:05 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I8x6dMHCCNWxImgSqWvoDobWL0BgFbHJqFnBvP/4dprCJARpBosRGQ+JvSk6XnJ1YfR13l13mOceCONRTRtSpA==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"test", "slogan"=>"diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (6.0ms)
+  Rendered slogans/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 69ms (Views: 51.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:29:04 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.2ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 73ms (Views: 37.6ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mSlogan Load (1.6ms)[0m  [1m[34mSELECT  "slogans".* FROM "slogans" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mSlogan Load (0.2ms)[0m  [1m[34mSELECT  "slogans".* FROM "slogans" WHERE "slogans"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mSlogan Destroy (10.1ms)[0m  [1m[31mDELETE FROM "slogans" WHERE "slogans"."id" = ?[0m  [["id", 5]]
+  [1m[36mSlogan Load (0.6ms)[0m  [1m[34mSELECT  "slogans".* FROM "slogans" WHERE "slogans"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mSlogan Destroy (59.7ms)[0m  [1m[31mDELETE FROM "slogans" WHERE "slogans"."id" = ?[0m  [["id", 8]]
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:32:35 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.4ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 71ms (Views: 66.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:32:43 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.3ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 73ms (Views: 70.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 19:32:45 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 19:32:47 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 62ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-28 19:32:50 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-28 19:32:57 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 67ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-28 19:33:00 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.3ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 75ms (Views: 70.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:33:05 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.3ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 66ms (Views: 61.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:42:00 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.4ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 83ms (Views: 64.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 19:42:01 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (6.7ms)
+  Rendered slogans/new.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 98ms (Views: 94.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 19:42:23 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IfA10XkarAKd/aD/A+JzR1JrpP1QvdAiVVihWKPpPAPAGEvMvlO1ziNWdcSQ1+k8tUn+Y23f+QzjCYO1EQoYPQ==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"dustin@gmail.com", "slogan"=>"test"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[36mSlogan Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? LIMIT ?[0m  [["email", "dustin@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (4.5ms)
+  Rendered slogans/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 95ms (Views: 68.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:44:43 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unknown validator: 'LenghtValidator'):
+  
+app/models/slogan.rb:6:in `<class:Slogan>'
+app/models/slogan.rb:1:in `<main>'
+app/controllers/slogans_controller.rb:7:in `index'
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:44:56 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.2ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 86ms (Views: 76.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 19:44:57 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (8.2ms)
+  Rendered slogans/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 80ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 19:45:50 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LHUrO+FLpO6/3Kqhtvw+QwOJ74OIgCtG1lKtOIlKPG3NnVUmJgK9IgF3f5olyaQ45Ku1HbXiAmhgA4/VO6kYUw==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"test", "slogan"=>"viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[36mSlogan Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? LIMIT ?[0m  [["email", "test"], ["LIMIT", 1]]
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (6.6ms)
+  Rendered slogans/new.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 83ms (Views: 55.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:46:02 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.3ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 58ms (Views: 54.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 19:51:21 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 1.0ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'name' for Slogan.):
+  
+app/models/slogan.rb:10:in `<main>'
+app/controllers/slogans_controller.rb:7:in `index'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSlogan Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mSlogan Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSlogan Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mSlogan Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSlogan Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? LIMIT ?[0m  [["email", "Dustin"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mSlogan Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? LIMIT ?[0m  [["email", "Dustin"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSlogan Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? LIMIT ?[0m  [["email", "test@email.it"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mSlogan Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? LIMIT ?[0m  [["email", "test@email.it"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSlogan Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? LIMIT ?[0m  [["email", "hello@gmail.it"], ["LIMIT", 1]]
+  [1m[36mSlogan Create (10.6ms)[0m  [1m[32mINSERT INTO "slogans" ("first_name", "last_name", "email", "slogan", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "hello"], ["last_name", "hello"], ["email", "hello@gmail.it"], ["slogan", "test"], ["created_at", "2018-12-28 20:07:20.129523"], ["updated_at", "2018-12-28 20:07:20.129523"]]
+  [1m[35m (37.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mSlogan Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? AND "slogans"."id" != ? LIMIT ?[0m  [["email", "hello@gmail.it"], ["id", 9], ["LIMIT", 1]]
+  [1m[36mSlogan Load (0.8ms)[0m  [1m[34mSELECT  "slogans".* FROM "slogans" WHERE "slogans"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mSlogan Destroy (11.8ms)[0m  [1m[31mDELETE FROM "slogans" WHERE "slogans"."id" = ?[0m  [["id", 9]]
+  [1m[36mSlogan Load (0.4ms)[0m  [1m[34mSELECT  "slogans".* FROM "slogans" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 20:13:06 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.3ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 67ms (Views: 60.8ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-28 20:13:10 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.3ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 44ms (Views: 40.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:13:44 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 77ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:20:09 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 74ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:20:31 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 90ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:21:17 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 96ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:24:42 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 95ms (Views: 88.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:26:02 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 128ms (Views: 125.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:26:26 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 97ms (Views: 93.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:26:41 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:26:48 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 103ms (Views: 102.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:27:32 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 132ms (Views: 126.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:28:19 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 73ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:28:28 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 73ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:28:41 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 121ms (Views: 118.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:29:50 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 80ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:30:03 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 116ms (Views: 114.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:30:52 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 125ms (Views: 121.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:31:13 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 92ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:31:24 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 86ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 20:32:09 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 102ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 20:32:09 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 54ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-28 20:32:12 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 47ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-28 20:32:14 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 55ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-28 20:32:16 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.4ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 49ms (Views: 46.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 20:32:17 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.2ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 75ms (Views: 39.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:32:34 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:41:20 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:43:12 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 67ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 20:44:10 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 79ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-28 20:44:14 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 69ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-28 20:44:24 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 54ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-28 20:44:29 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.5ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 77ms (Views: 70.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 20:48:42 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 83ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 20:49:20 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.2ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 99ms (Views: 58.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 20:49:22 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (3.3ms)
+  Rendered slogans/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 80ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 20:51:12 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yghSmBRpbKRwHnFBDONQfQ2ohwkD2rKCRoSv42E8V8or4CyF0yB1aM61pHqf1soG6ordlz64m6zw1Y0O099z9A==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"teset", "slogan"=>"test"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[36mSlogan Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? LIMIT ?[0m  [["email", "teset"], ["LIMIT", 1]]
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (14.0ms)
+  Rendered slogans/new.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 103ms (Views: 91.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 20:51:25 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Nlqjtv1NrQmVUZ1hmTkxSOnOFucCOKYOegRlLYaJh0e99+NfPbVk6t7e8jeW2Msvn7n02mdzV9nImGCCw5dqlA==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"test", "slogan"=>"test"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[36mSlogan Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? LIMIT ?[0m  [["email", "test"], ["LIMIT", 1]]
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (12.7ms)
+  Rendered slogans/new.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 93ms (Views: 83.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 20:52:06 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.5ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 78ms (Views: 75.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 20:53:53 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (1.1ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 77ms (Views: 72.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 20:53:54 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (11.1ms)
+  Rendered slogans/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 20:54:32 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (13.8ms)
+  Rendered slogans/new.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 82ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 20:54:45 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QTid5LS7BMpouDMsnOTyNCDx80PxLhs1NUimXwl4/DTKld0NdEPNKSM3XHqTBQhTVoYRfpRl6uKH1KPwTGYR5w==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"test", "slogan"=>"test"}, "commit"=>"Create Slogan"}
+  [1m[35m (1.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[36mSlogan Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? LIMIT ?[0m  [["email", "test"], ["LIMIT", 1]]
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (4.6ms)
+  Rendered slogans/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 78ms (Views: 56.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 20:54:57 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.2ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 108ms (Views: 106.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 20:54:58 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (5.8ms)
+  Rendered slogans/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 77ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 20:55:29 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (13.4ms)
+  Rendered slogans/new.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 71ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 20:55:41 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cGP+17mM1k9Tuy8A7ClbMuv9gMpPo3Xx5+pYYrW4RWL7zr4+eXQfrBg0QFbjyKFVnYpi9yrohCZVdl3N8KaosQ==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"tests", "slogan"=>"test"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[36mSlogan Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? LIMIT ?[0m  [["email", "tests"], ["LIMIT", 1]]
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (10.9ms)
+  Rendered slogans/new.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 77ms (Views: 67.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 21:10:33 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 57ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:10:51 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (1.5ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 94ms (Views: 89.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:12:18 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.2ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 110ms (Views: 107.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:12:52 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.4ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 168ms (Views: 166.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 21:14:32 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (9.2ms)
+  Rendered slogans/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 85ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 21:15:01 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (14.2ms)
+  Rendered slogans/new.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 100ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:15:04 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.4ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 57ms (Views: 54.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:15:15 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.2ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 21:15:18 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (5.0ms)
+  Rendered slogans/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 70ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:15:23 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.3ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 69ms (Views: 66.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:16:02 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.2ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 74ms (Views: 72.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 21:16:05 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (4.9ms)
+  Rendered slogans/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:16:09 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.3ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 67ms (Views: 63.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 21:17:01 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (12.4ms)
+  Rendered slogans/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 100ms (Views: 97.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 21:17:26 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (9.2ms)
+  Rendered slogans/new.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 101ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:17:28 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.3ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 61ms (Views: 55.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:17:39 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.3ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 110ms (Views: 104.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:18:03 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.4ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 63ms (Views: 60.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 21:18:14 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (3.6ms)
+  Rendered slogans/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 72ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:18:36 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.5ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 58ms (Views: 56.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:19:24 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.6ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 85ms (Views: 81.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 21:19:26 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (6.0ms)
+  Rendered slogans/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 71ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:19:30 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.4ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 78ms (Views: 69.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 21:20:21 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 59ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 21:20:28 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 60ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-28 21:20:29 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 56ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-28 21:20:31 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 58ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-28 21:22:20 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 62ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:22:33 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.6ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 77ms (Views: 73.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 21:22:34 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-28 21:24:08 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 62ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-28 21:24:11 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 56ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-28 21:24:18 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.8ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 64ms (Views: 59.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 21:24:21 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 51ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 21:24:25 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:24:29 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.4ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 74ms (Views: 71.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 192.168.56.1 at 2018-12-28 21:31:04 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 245ms (Views: 237.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 21:34:25 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-28 21:34:27 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-28 21:34:28 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-28 21:34:30 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.4ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 49ms (Views: 41.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:34:31 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.7ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 70ms (Views: 53.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 21:34:32 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 21:34:32 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 38ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 21:37:33 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 65ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-28 21:37:38 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-28 21:41:06 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.4ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 79ms (Views: 43.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-28 21:41:07 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-28 21:41:19 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.4ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 47ms (Views: 44.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-28 21:41:38 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.5ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 53ms (Views: 49.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/slogans/new" for 192.168.56.1 at 2018-12-28 21:41:43 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#new as HTML
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (38.9ms)
+  Rendered slogans/new.html.erb within layouts/application (43.0ms)
+Completed 200 OK in 84ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/slogans" for 192.168.56.1 at 2018-12-28 21:42:45 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xFhmqlGrMKNpI8LoLOgqAgqx52T43n4L/ddlSc3gr0olsBi3luIpb9eIF9O/3bB57ZO9+sW8VyVLhkekfwOLdA==", "slogan"=>{"first_name"=>"test", "last_name"=>"test", "email"=>"test", "slogan"=>"id leo in vitae turpis massa sed elementum tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus"}, "commit"=>"Create Slogan"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[36mSlogan Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "slogans" WHERE "slogans"."email" = ? LIMIT ?[0m  [["email", "test"], ["LIMIT", 1]]
+  ↳ app/controllers/slogans_controller.rb:30
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/slogans_controller.rb:30
+  Rendering slogans/new.html.erb within layouts/application
+  Rendered slogans/_form.html.erb (5.3ms)
+  Rendered slogans/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 63ms (Views: 39.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 21:43:01 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 47ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-28 21:47:18 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-28 21:52:02 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-28 21:52:37 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-28 21:53:44 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-28 21:53:55 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-28 21:53:58 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 14:21:39 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 71ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-29 14:21:54 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-29 14:23:10 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 63ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 14:24:08 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 14:27:59 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 14:59:27 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:00:28 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 48ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:09:54 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 59ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:11:05 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 55ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:11:27 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:11:31 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 48ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 15:11:43 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 15:11:46 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 59ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:11:47 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 31ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-29 15:12:08 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.3ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 68ms (Views: 33.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:12:09 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:12:57 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-29 15:13:01 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:13:02 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:15:30 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 95ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:15:33 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 60ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-29 15:15:36 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:15:37 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 56ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:16:34 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 90ms (Views: 85.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:17:19 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 45ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:17:21 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:18:09 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-29 15:18:11 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:18:14 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:19:15 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:19:33 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:21:23 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:21:27 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:21:57 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 72ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:22:57 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 78ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:23:53 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 81ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:25:47 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 52ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:26:28 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 52ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:26:30 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 45ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:28:54 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 55ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:28:56 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:29:18 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 56ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:29:20 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:29:44 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:30:15 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:31:17 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 55ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:31:22 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:33:11 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:33:52 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:38:32 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:38:49 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 69ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:39:51 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:39:54 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:40:27 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 48ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 15:40:33 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-29 15:40:35 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:40:36 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 41ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:43:49 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-29 15:43:53 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:43:54 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 48ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:46:31 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 52ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:46:38 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:48:44 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:49:33 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 89ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:49:36 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:51:44 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:51:52 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:52:00 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 15:52:06 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-29 15:52:08 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 37ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:52:09 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-29 15:52:14 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 45ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-29 15:52:16 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.4ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 33ms (Views: 30.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-29 15:52:17 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 66ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:52:19 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:52:25 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-29 15:52:28 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 41ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:52:30 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:53:00 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 46ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:53:02 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 55ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:53:45 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 47ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 15:53:47 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 16:03:55 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 86ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 16:04:44 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 86ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 16:05:13 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 16:05:18 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/location" for 192.168.56.1 at 2018-12-29 16:05:31 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LocationController#index as HTML
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 16:05:33 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 87ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-29 16:06:17 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 82ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 16:06:18 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 82ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 16:07:28 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 16:08:10 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 16:08:15 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 16:09:02 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 56ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 16:09:19 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 16:10:34 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 20:27:18 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 20:27:21 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 22:37:20 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 22:37:22 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-29 22:37:51 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.6ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 55ms (Views: 50.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 22:37:54 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 22:38:02 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 22:39:00 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 22:39:01 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 22:39:03 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/riders" for 192.168.56.1 at 2018-12-29 22:39:49 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RidersController#index as HTML
+  Rendering riders/index.html.erb within layouts/application
+  [1m[36mRider Load (0.6ms)[0m  [1m[34mSELECT "riders".* FROM "riders"[0m
+  ↳ app/views/riders/index.html.erb:13
+  Rendered riders/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 52ms (Views: 45.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/slogans" for 192.168.56.1 at 2018-12-29 22:39:50 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SlogansController#index as HTML
+  Rendering slogans/index.html.erb within layouts/application
+  [1m[36mSlogan Load (0.2ms)[0m  [1m[34mSELECT "slogans".* FROM "slogans"[0m
+  ↳ app/views/slogans/index.html.erb:17
+  Rendered slogans/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 56ms (Views: 47.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 22:39:53 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 22:40:01 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 22:40:19 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 22:40:20 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 22:40:25 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 46ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 22:41:01 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 22:41:05 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-29 22:41:09 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-29 22:41:11 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 80ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 22:41:12 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 22:45:40 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 22:45:54 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-29 22:45:56 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-29 22:45:56 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/home" for 192.168.56.1 at 2018-12-30 17:00:49 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#home as HTML
+  Rendering site/home.html.erb within layouts/application
+  Rendered site/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 56ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-30 17:06:30 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-30 17:08:26 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-30 17:08:29 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SiteController#about as HTML
+  Rendering site/about.html.erb within layouts/application
+  Rendered site/about.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-30 17:08:30 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-30 17:09:15 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 74ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-30 17:09:17 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-30 17:09:52 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 82ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 192.168.56.1 at 2018-12-30 17:43:57 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/about" for 192.168.56.1 at 2018-12-30 17:43:59 +0000
+Cannot render console from 192.168.56.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255

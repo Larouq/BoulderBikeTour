@@ -43,6 +43,16 @@ header {
   background-color: rgba(200,199,200, 0.9);
 }
 
+#countdown {
+  padding: 60px;
+  margin: 20px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  border-radius: 4px
+}
+
 #myBtn {
   display: none;
   position: fixed;
