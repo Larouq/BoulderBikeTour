@@ -1,11 +1,12 @@
 <h1>Flickr photos</h1>
 <h2>#bikerace #BoulderBikeTour</h2>
+<p>Scroll down to see some Flickr photos</p>
 <div class="photos"> </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
 
 <script>
-  var api_key = "ac3cf133f7f530a931a5910384ce3c25"
+  var api_key = "2f7b3ca61bf5bbdbbe5928eb5ce05f3c"
   var page = 1
 
   if ($(document).height() < 300) {
@@ -13,7 +14,7 @@
   }
 
   $(window).scroll(function() {
-    if($(window).scrollTop() + $(window).height() > $(document).height()-50) {
+    if($(window).scrollTop() + $(window).height() > $(document).height()-100) {
 
       var xhr = $.get("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=" + api_key + "&tags=bikerace%2C+BoulderBikeTour&per_page=40&page=" + page + "&format=json&nojsoncallback=1")
 
