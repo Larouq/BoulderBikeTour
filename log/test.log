@@ -1396,3 +1396,177 @@
   [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
   [1m[35m (1.1ms)[0m  [1m[31mrollback transaction[0m
   [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.3ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (6.6ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.5ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (1.6ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.084142', '2019-01-08 20:10:42.084142', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.084142', '2019-01-08 20:10:42.084142', 298486374)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (2.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.8ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.8ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (3.5ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.306053', '2019-01-08 20:10:42.306053', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.306053', '2019-01-08 20:10:42.306053', 298486374)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (1.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.0ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.334094', '2019-01-08 20:10:42.334094', 980190962)[0m
+  [1m[36mFixture Insert (1.0ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.334094', '2019-01-08 20:10:42.334094', 298486374)[0m
+  [1m[36mFixture Insert (1.3ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (3.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.6ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (0.8ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.379634', '2019-01-08 20:10:42.379634', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.379634', '2019-01-08 20:10:42.379634', 298486374)[0m
+  [1m[36mFixture Insert (0.4ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (1.0ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.413964', '2019-01-08 20:10:42.413964', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.413964', '2019-01-08 20:10:42.413964', 298486374)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (2.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (2.8ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (1.4ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.6ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.5ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (3.4ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.437114', '2019-01-08 20:10:42.437114', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.437114', '2019-01-08 20:10:42.437114', 298486374)[0m
+  [1m[36mFixture Insert (3.6ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (1.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.5ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.5ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (2.0ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.5ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.6ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.7ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (0.8ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.486129', '2019-01-08 20:10:42.486129', 980190962)[0m
+  [1m[36mFixture Insert (0.6ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:10:42.486129', '2019-01-08 20:10:42.486129', 298486374)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (2.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (2.3ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.9ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.5ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.7ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (0.7ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:13:06.508232', '2019-01-08 20:13:06.508232', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:13:06.508232', '2019-01-08 20:13:06.508232', 298486374)[0m
+  [1m[36mFixture Insert (0.5ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (2.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (1.3ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.4ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:20:44.852985', '2019-01-08 20:20:44.852985', 980190962)[0m
+  [1m[36mFixture Insert (0.5ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:20:44.852985', '2019-01-08 20:20:44.852985', 298486374)[0m
+  [1m[36mFixture Insert (1.5ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (3.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.6ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:20:44.885580', '2019-01-08 20:20:44.885580', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:20:44.885580', '2019-01-08 20:20:44.885580', 298486374)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.6ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:20:44.908979', '2019-01-08 20:20:44.908979', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 20:20:44.908979', '2019-01-08 20:20:44.908979', 298486374)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (1.8ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (1.0ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (1.9ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.6ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (0.7ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 21:20:10.502280', '2019-01-08 21:20:10.502280', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 21:20:10.502280', '2019-01-08 21:20:10.502280', 298486374)[0m
+  [1m[36mFixture Insert (2.7ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.5ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.4ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 21:20:10.544434', '2019-01-08 21:20:10.544434', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 21:20:10.544434', '2019-01-08 21:20:10.544434', 298486374)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (2.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "locations"[0m
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "photos"[0m
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "riders"[0m
+  [1m[36mFixture Delete (1.0ms)[0m  [1m[31mDELETE FROM "slogans"[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 21:20:10.567870', '2019-01-08 21:20:10.567870', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "locations" ("created_at", "updated_at", "id") VALUES ('2019-01-08 21:20:10.567870', '2019-01-08 21:20:10.567870', 298486374)[0m
+  [1m[36mFixture Insert (0.4ms)[0m  [1m[32mINSERT INTO "photos" ("id", "owner", "secret", "server", "farm", "title", "ispublic", "isfriend", "isfamily") VALUES (0, 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString', 'MyString')[0m
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
